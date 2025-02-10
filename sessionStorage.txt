@@ -1,0 +1,9 @@
+->Whenever a document is loaded in a particular tab in the browser, 
+a unique page session gets created and assigned to that particular tab. 
+That page session is valid only for that particular tab.
+->A page session lasts as long as the tab or the browser is open, and survives over page reloads and restores.
+->Opening a page in a new tab or window creates a new session with the value of the top-level browsing context, 
+which differs from how session cookies work.
+->Opening multiple tabs/windows with the same URL creates sessionStorage for each tab/window.
+->Duplicating a tab copies the tab's sessionStorage into the new tab.
+->Closing a tab/window ends the session and clears objects in sessionStorage.

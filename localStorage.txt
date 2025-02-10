@@ -1,0 +1,6 @@
+JavaScript localStorage is a web storage feature that allows you to store key-value pairs in a browser. 
+Data persists even after the browser is closed, providing a method to save and retrieve data across sessions, 
+enhancing user experience by maintaining state and preferences.
+
+localStorage is similar to sessionStorage, except that while localStorage data has no expiration time, 
+sessionStorage data gets cleared when the page session ends — that is, when the page is closed.
