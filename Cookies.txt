@@ -1,0 +1,3 @@
+When a browser requests a web page from a server, cookies belonging to the page are added to the request. 
+This way the server gets the necessary data to "remember" information about users.
+
