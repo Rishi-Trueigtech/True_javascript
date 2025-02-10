@@ -1,0 +1,18 @@
+Promise - A promise is an object that represents eventual completion/failure of an asynchronous operation.
+
+A promise has three states -> 1)Pending , 2)fulfilled , 3)Rejected.
+As soon as promise is fulfilled/rejected - it updates the empty object which is assigned undefined in pending state.
+A promise resolve only once and it is immutable
+Using .then() we can control when we call the callback function
+
+Note -> A very common mistake that developers do is not returning a value during chaining of promises.Always remember to return a value.
+
+
+
+Static Method of Promise
+1).all()->  Use when we need output of all the promise passed in this method.
+2).allSetteld() -> Use when we have to track about all the promises rejection/resolve
+3).race() -> It's useful when you want the first async task to complete, but do not care about its eventual state (i.e. it can either succeed or fail).
+4).any() -> This method is useful for returning the first promise that fulfills. It short-circuits after a promise fulfills, so it does not wait for the other promises to complete once it finds one.
+5).resolve() -> returns a promise whose eventual state depends on another promise, thenable object, or other value.
+6).try()-> ??
